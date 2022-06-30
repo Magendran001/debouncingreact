@@ -12,7 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.input_div {
+  display: grid;
+  justify-content: center;
+}
+.input_div input {
+  margin: auto;
+  width: 400px;
+  height: 30px;
+}
+.hide_scroll {
+ 
+  width: 400px;
+  height: auto;
+  min-height: 50px;
+  
+  max-height: 300px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
